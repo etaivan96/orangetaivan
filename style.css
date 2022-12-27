@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #444;
+}
+
+.left a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.0275em;
+    color: #555;
+}
+
+body{
+    padding: 1rem;
+}
+
+.mw{
+    max-width: 80%;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.sale {
+    display: flex;
+    justify-content: end;
+}
+
+.sale p{
+    color: #37833B;
+    background: #ECF7ED;
+    width: fit-content;
+    font-size: 0.7rem;
+    padding: 0.15rem;
+    border-radius: 0.4rem;
+}
+
+.card-text{
+    font-weight: 300;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.card{
+    transition: 0.5s all;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#ratingNnumber{
+    font-size: 12px;
+}
+
+.customerSection a{
+    font-size: 0.7rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+#searchBar{
+    width: 85rem;
+    background: #EDEDF0;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 1.6rem;
+    transition: 0.5s all;
+    border-radius: 3rem;
+}
+#searchBar:focus{
+outline: 0px;
+border: 1px solid rgb(68, 69, 180);
+border-radius: 3rem;
+}
+
+
+.bottom ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 143%;
+    /* identical to box height, or 20px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.018em;
+    
+    /* Gray / 50 */
+    
+    color: #787885;
+    text-decoration: none;
+
+}
+
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.logo h4{
+    margin-top: 0.5rem;
+}
+
+.logo span h4 {
+    color: #fff;
+    transform: translateX(-1.7rem);
+}
+
+.card-body h5{
+    font-size: 2rem;
+}
+
+.bottom{
+    margin-top: 1.5rem;
+}
+
+section{
+    margin: 1rem;
+    padding: 2rem;
+    margin-left: 5rem;
+}
